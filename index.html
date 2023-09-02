@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body {
+        background-image: linear-gradient(orange, yellow, red);
+        
+      }
+      .main {
+        width: 100vw;
+       height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+      }
+      .white {
+        display: flex;
+        text-align: center;
+        width: 900px;
+        height: 400px;
+        background-color: white;
+        border-radius: 10px;
+        transition: all 2s ease;
+       
+        
+      }
+      .white:hover{
+        transform: scale(0.6);
+        position: absolute;
+        top:10px;
+        left:50px;
+      }
+      .bold {
+        font-weight: bold;
+        margin: 20px 0px 20px 0px;
+      }
+      .but button {
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: orangered;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-top:40px;
+        border:none;
+        cursor: pointer;
+      }
+      .but button:hover{
+        color:orange;
+        background-color: white;
+        border:2px solid orangered;
+      }
+      .red {
+        width: 350px;
+        height: 300px;
+        background-color: orangered;
+        position: relative;
+        border-radius: 20px;
+        margin-top: 50px;
+        right:50px;
+        transition: all 2s ease;
+      }
+      .red:hover{
+        transform: rotate(360deg);
+      }
+      .text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+
+      }
+      .white p{
+        width:450px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="white">
+        <div class="red"></div>
+        <div class="text">
+          <h2>26 dec 2022</h2>
+          <h1 class="bold">lorem ipsum dolor2</h1>
+          <p>
+             Britannica Dictionary definition of MYSELF. 1. : the person who is speaking or writing: a — used as the object of a verb or preposition to refer to yourself after you have already been mentioned.
+          </p>
+          <div class="but">
+            <button>READ MORE</button>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </body>
+</html>
